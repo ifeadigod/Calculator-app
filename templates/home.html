@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/templates/home.css">
+        <title>Calculator</title>
+
+        <style>
+            body{
+                background-color: black;
+            }
+            input{
+                padding: 8px;
+                border: 1px solid white;
+                background-color: transparent;
+                border-radius: 10px;
+                color: white;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            button{
+                padding: 8px;
+                width: 100px;
+                color: black;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 20px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            button:hover{
+                background-color: transparent;
+                cursor: pointer;
+                text-decoration: none;
+                border: 1px solid white;
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="result" class="form">
+            <input type="number" name="num1" placeholder="Input number 1" required /><br>
+            <input type="number" name="num2" placeholder="Input number 2" required /><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
